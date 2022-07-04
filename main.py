@@ -12,6 +12,7 @@ print(x)
 print("Largest number is:", max(my_list))
 
 ### Q3: using List Comprehension , create a new list from the above list containing only even numbers.
+
 my_list2 = [i for i in my_list if i%2 == 0 ]
 print(my_list2)
 
@@ -19,5 +20,4 @@ print(my_list2)
 ### Q4: use list slicing to get a new list from the previous list starting from the start to the 5th element in the list.
 
 new_list = my_list[:5]
-
 print(new_list)
